@@ -1,4 +1,4 @@
-"""Path Finding"""
+"""Path Finder"""
 
 import pygame, sys, random, math
 from collections import deque
@@ -8,7 +8,7 @@ size = (width, height) = 640, 480
 pygame.init()
 
 win = pygame.display.set_mode(size)
-pygame.display.set_caption("Dijktdtra's Path Finding")
+pygame.display.set_caption("Path Finder")
 clock = pygame.time.Clock()
 
 cols, rows = 64, 48
